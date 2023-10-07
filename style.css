@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px 20px;
+  background-color: #3e880c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+form {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3e880c;
+  margin-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+input[type="submit"] {
+  padding: 15px 10px;
+  background-color: #3e880c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 20px; /* Увеличение расстояния между заметками */
+  border: 1px solid #ccc; /* Добавление рамки вокруг каждой заметки */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Стили для заголовка и контента заметки */
+li p {
+  margin: 0;
+}
